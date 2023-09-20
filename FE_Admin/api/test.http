@@ -1,0 +1,7 @@
+GET http://localhost:3000/products
+
+###
+GET http://localhost:3000/api/v1/products?page=1&pageSize=20
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJ1c2VybmFtZSI6Im5ndW9pZHVuZyIsImVtYWlsIjoiZW1haWxAZ21haWwuY29tIiwicm9sZSI6dHJ1ZX0sImlhdCI6MTY1Mjg2NTg4MSwiZXhwIjoxNjUyODY5NDgxfQ.RdLDvi5y5w2FiFp3Wxpq-jGr6teFPSbDdgnBjQx5Jyg
+

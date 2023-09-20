@@ -1,0 +1,20 @@
+GET   http://localhost:3000/category
+Content-Type: application/json
+
+###
+GET  http://localhost:3000/customer
+Content-Type: application/json
+
+###
+GET   http://localhost:3000/api/v1/categories
+Content-Type: application/json
+
+###
+POST http://localhost:3000/api/v1/auth/signin HTTP/1.1
+Content-Type: application/json
+Connection: keep-alive
+
+{
+    "username": "tuan123456",
+    "password": "123456789"
+}

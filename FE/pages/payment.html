@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comforter&family=Exo+2:wght@400;600;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/background.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <title>Thanh toán</title>
+</head>
+
+<body>
+    <div class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-body">
+            <div class="address">
+                <span class="address-header">Địa chỉ mới</span>
+                <form class="address-form">
+                    <div class="address-form-group">
+                        <label for="" class="address-form-label">Họ và tên</label>
+                        <input type="text" class="address-form-control">
+                    </div>
+                    <div class="address-form-group">
+                        <label for="" class="address-form-label">Số điện thoại</label>
+                        <input type="text" class="address-form-control" placeholder="(+84)">
+                    </div>
+                    <div class="address-form-group">
+                        <label for="" class="address-form-label">Tỉnh/Thành phố</label>
+                        <select name="" id="" class="address-form-control"></select>
+                    </div>
+                    <div class="address-form-group">
+                        <label for="" class="address-form-label">Quận/Huyện</label>
+                        <select name="" id="" class="address-form-control"></select>
+                    </div>
+                    <div class="address-form-group">
+                        <label for="" class="address-form-label">Phường/Xã</label>
+                        <select name="" id="" class="address-form-control"></select>
+                    </div>
+                    <div class="address-form-group">
+                        <label for="" class="address-form-label">Địa chỉ cụ thể</label>
+                        <input type="text" class="address-form-control">
+                    </div>
+                    <div class="address-form-group checkbox">
+                        <input type="checkbox" class="address-checkbox" id="address-checkbox">
+                        <label for="address-checkbox">Đặt làm mặc định</label>
+                    </div>
+                    <div class="address-form-footer">
+                        <button class="btn btn-transparent btn-long">Trở lại</button>
+                        <button class="btn btn-primary btn-long">Hoàn thành</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="background">
+        <div class="background-left"></div>
+        <div class="background-right"></div>
+        <header class="header">
+        </header>
+        <div class="cart">
+        </div>
+    </div>
+    <footer class="footer">
+    </footer>
+    <script src="../js/utils/validation.js"></script>
+    <script type="module">
+        import app from '../js/payment.js'
+        app.init();
+    </script>
+</body>
+
+</html>

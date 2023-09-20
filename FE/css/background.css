@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(180deg, #FFFFFF 43.23%, #D7E1EC 100%),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+}
+
+.background,
+.background-fixed {
+    position: relative;
+    overflow: hidden;
+}
+
+.background {
+    min-height: 100vh;
+}
+
+.background-left,
+.background-right,
+.background-fixed-left,
+.background-fixed-right {
+    background: linear-gradient(151.32deg, #FF4747 20.91%, #FF2A2A 98.42%);
+    height: 200%;
+    width: 100px;
+    transform: rotate(-30deg);
+    z-index: -999;
+}
+
+.background-left,
+.background-right {
+    position: absolute;
+}
+
+.background-left {
+    top: -40rem;
+    left: 0;
+}
+
+.background-right {
+    bottom: -40rem;
+    right: 0;
+}
+
+.background-left::before,
+.background-right::before,
+.background-fixed-left::before,
+.background-fixed-right::before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(151.32deg, #FF4747 20.91%, #FF2A2A 98.42%);
+    bottom: 0;
+    height: 100%;
+    width: 100px;
+    z-index: -999;
+}
+
+.background-left::before {
+    left: -150px;
+}
+
+.background-right::before {
+    right: -150px;
+}
+
+.background-fixed-left,
+.background-fixed-right {
+    position: fixed;
+}
+
+.background-fixed-left {
+    top: -50%;
+    left: 100px;
+}
+
+.background-fixed-right {
+    top: -50%;
+    right: 100px;
+}
+
+.background-fixed-left::before {
+    left: -150px;
+}
+
+.background-fixed-right::before {
+    right: -150px;
+}

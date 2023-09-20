@@ -1,0 +1,99 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "something",
+      "category": "Nothing",
+      "source": "Saysomething",
+      "Iprice": "100.000BVND",
+      "Eprice": "200.000VND"
+    },
+    {
+      "id": 2,
+      "name": "something",
+      "category": "Nothing",
+      "source": "Saysomething",
+      "Iprice": "100VND",
+      "Eprice": "200.000VND"
+    },
+    {
+      "name": "something",
+      "category": "Nothing",
+      "source": "Saysomething",
+      "Iprice": "500.000VND",
+      "Eprice": "200.000VND",
+      "id": 3
+    },
+    {
+      "name": "something",
+      "category": "Nothing",
+      "source": "Saysomething",
+      "Iprice": "500.000VND",
+      "Eprice": "200.000VND",
+      "id": 4
+    },
+    {
+      "name": "something",
+      "category": "Nothing",
+      "source": "Saysomething",
+      "Iprice": "500.000VND",
+      "Eprice": "200.000VND",
+      "countpeople": "15-20 người",
+      "timeplay": "30-40 phút",
+      "age": "10-30 tuổi",
+      "id": 5
+    }
+  ],
+  "category": [
+    {
+      "category_name": "việt nam zô địch",
+      "category_count": 0,
+      "id": 1
+    },
+    {
+      "category_name": "zá",
+      "category_count": 0,
+      "isDelete": false,
+      "id": 2
+    },
+    {
+      "category_name": "â",
+      "category_count": 0,
+      "isDelete": false,
+      "id": 3
+    },
+    {
+      "category_name": "fffff",
+      "category_count": 0,
+      "isDelete": false,
+      "id": 4
+    },
+    {
+      "category_name": "bruhh",
+      "category_count": 0,
+      "isDelete": false,
+      "id": 5
+    },
+    {
+      "category_name": "ưe3",
+      "category_count": 0,
+      "isDelete": false,
+      "id": 6
+    },
+    {
+      "category_name": "g3q",
+      "category_count": 0,
+      "isDelete": false,
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    }
+  ]
+}
